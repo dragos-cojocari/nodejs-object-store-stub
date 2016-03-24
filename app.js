@@ -4,16 +4,17 @@
 
 var path = require('path')
 
+// read the information from the VCAP services of your Bluemix application/service using Object Store
 var bluemixObjectStore = {
 	"auth_url": "https://identity.open.softlayer.com",
-	"project": "object_storage_0bdded51_d5c1_40d0_8d1b_52e14d70b93a",
-	"projectId": "30e91540a19942d6928ee2522ead5aa5",
+	"project": "...",
+	"projectId": "...",
 	"region": "dallas",
-	"userId": "3c5fe22e11554bd6891b3cfa9ceaa44f",
-	"username": "Admin_270f4b1a7249ad692af0c121e852b323cf7e35de",
-	"password": "R?^Uzz05Otmg[(s_",
-	"domainId": "2a2d5d46c6de4cd1a4ff869af7e5cca5",
-	"domainName": "948759"
+	"userId": "...",
+	"username": "...",
+	"password": "...",
+	"domainId": "...",
+	"domainName": "..."
  };
 
 downloadComplete = function( localFile, error) {
