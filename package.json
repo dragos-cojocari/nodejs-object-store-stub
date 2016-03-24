@@ -1,0 +1,13 @@
+{
+  "name": "Object-Storage-Example",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "basic-auth": "~1.0.0",
+    "object-storage": "^0.6.2",
+    "pkgcloud-bluemix-objectstorage": "^2.0.0"
+  }
+}
